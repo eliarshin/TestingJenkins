@@ -7,6 +7,7 @@ pipeline {
                 sh 'id'
                 sh 'whoami'
                 sh 'ls -a'
+                sh 'whoami'
             }
         }
     }
