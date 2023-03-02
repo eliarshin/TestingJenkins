@@ -6,7 +6,10 @@ pipeline {
                 sh 'env'
                 sh 'id'
                 sh 'whoami'
-                sh 'ls -a'
+                sh 'ls -a
+                sh 'ls -la /'
+                sh 'ls -la /var/'
+                sh 'whoami'
             }
         }
     }
