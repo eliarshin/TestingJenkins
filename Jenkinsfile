@@ -9,6 +9,7 @@ pipeline {
                 sh 'ls -a'
                 sh 'ls -la /'
                 sh 'ls -la /var/'
+                sh 'whoami'
             }
         }
     }
